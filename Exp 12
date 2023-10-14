@@ -1,0 +1,29 @@
+/*
+Name-Sanika Desai
+PRN-22070123098
+Even_Odd */
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"Enter the number:"<<endl;
+    cin>>a;
+    if(a==0)
+    {
+        cout<<"The number is zero:"<<endl;
+    }
+    else if (a%2==0)
+    {
+        cout<<"The number is even:"<<endl;
+    }
+    else
+    {
+        cout<<"The number is odd:"<<endl;
+    } 
+    /*OUTPUT
+    Enter the number:2
+    The number is even:*/
+
+
+}
